@@ -10,11 +10,11 @@
 * Discuss any blocking issues
 
 ## Individual Updates:
-- <Name1>
+- (Name1)
   - Worked on yesterday:
   - Work for today:
   - Blockers/Issues:
-- <Name2>
+- (Name2)
   - Worked on yesterday:
   - Work for today:
   - Blockers/Issues:
