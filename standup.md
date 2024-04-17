@@ -1,4 +1,4 @@
-**Date & Time:**
+**Date & Time:**  
 **Attendees:**
 
 ## Announcements:
