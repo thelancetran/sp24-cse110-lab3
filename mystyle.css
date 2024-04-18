@@ -1,33 +1,84 @@
 /* This is a comment
+
+***DISCLAIMER: The webpage is meant to look bad so as to ensure I am actually doing my css correctly***
+
 GENERAL STRUCTURE:
 selector {
     property1: value1;
     property2: value2;
 }
+
 */
+
 section { /* variable */
     --main-color: orange;
 }
+
 p {
+    margin: 50px 10px 50px 30px; /* margin: <top> <right> <bottom> <left> */
     color: var(--main-color, brown); /* brown fallback value */
+    padding: 10px 30px 50px 50px; /* padding: <top> <right> <bottom> <left> */ 
+    border: 5px double #323232; 
+}
+
+h1 { 
+    color: #296494;
+    border: 3px groove lavender; 
+    text-align: center;
+    margin: auto;
+    display: inline;
 }
 
 h2 {
+    text-decoration: underline;
+    color: color(display-p3 75 100 30); /* color space */
     background-color: burlywood;
     width: 50vw; /* viewport width relative unit */
     height: 3vh; /* viewport height relative unit */
+
+    border-style: solid;
+    border-color: color-mix(in srgb, red 50%, blue); /* color-mix */
+    border-width: 3px;
+    border-radius: 150px;
+
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+    padding-top: 50px; 
+    padding-bottom: 5px; 
+    padding-left: 60px; 
+    padding-right: 10px; 
 }
 
 ul { /* made percentages small here to make it noticeable */
-    height: 5%;
-    width: 5%;
+    height: 3%;
+    width: 3%;
+    color: rgb(50, 122, 119);
+}
+
+ol {
+    color: hsl(71, 83%, 47%);
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 img {
     width: 400px; /* pixel absolute unit */
     height: 225px; 
+    max-width: 9%;
+    max-height: 20%;
+    border: 3px groove black; 
 }
 
 video {
     width: 7in; /* inch absolute unit */
 }               /* third absolute unit pt is inline (line 16) */
+
+audio {
+    border: 3px groove black;
+    display: block;
+}
