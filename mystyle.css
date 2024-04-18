@@ -10,15 +10,25 @@ selector {
 
 */
 
+@media screen and (max-width: 600px) {
+    body {
+        width: 90%;
+    }
+}
+
 section { /* variable */
     --main-color: orange;
 }
 
-p {
+p{
     margin: 50px 10px 50px 30px; /* margin: <top> <right> <bottom> <left> */
     color: var(--main-color, brown); /* brown fallback value */
     padding: 10px 30px 50px 50px; /* padding: <top> <right> <bottom> <left> */ 
     border: 5px double #323232; 
+}
+
+a:hover {
+    border: 3px solid blue;
 }
 
 h1 { 
@@ -27,6 +37,7 @@ h1 {
     text-align: center;
     margin: auto;
     display: inline;
+    font-family: 'Kanit';
 }
 
 h2 {
@@ -66,19 +77,44 @@ ol {
     margin-bottom: 20px;
 }
 
+li:active {
+    border: 3px solid black;
+}
+
 img {
     width: 400px; /* pixel absolute unit */
     height: 225px; 
     max-width: 9%;
     max-height: 20%;
     border: 3px groove black; 
+    position: fixed;
+    left: 12in;
 }
 
 video {
+    position: relative;
+    left: 50px;
     width: 7in; /* inch absolute unit */
 }               /* third absolute unit pt is inline (line 16) */
 
 audio {
     border: 3px groove black;
     display: block;
+}
+
+fieldset {
+    max-width:200px;
+    display:flex;
+    flex-wrap:wrap;
+    flex:auto;
+    flex-direction: row-reverse;
+}
+
+form {
+    border: 3px solid black;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 50px 50px;
+    grid-gap: 100px;
 }
