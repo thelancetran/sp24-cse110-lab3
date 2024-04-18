@@ -1,0 +1,33 @@
+/* This is a comment
+GENERAL STRUCTURE:
+selector {
+    property1: value1;
+    property2: value2;
+}
+*/
+section { /* variable */
+    --main-color: orange;
+}
+p {
+    color: var(--main-color, brown); /* brown fallback value */
+}
+
+h2 {
+    background-color: burlywood;
+    width: 50vw; /* viewport width relative unit */
+    height: 3vh; /* viewport height relative unit */
+}
+
+ul { /* made percentages small here to make it noticeable */
+    height: 5%;
+    width: 5%;
+}
+
+img {
+    width: 400px; /* pixel absolute unit */
+    height: 225px; 
+}
+
+video {
+    width: 7in; /* inch absolute unit */
+}               /* third absolute unit pt is inline (line 16) */
