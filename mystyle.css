@@ -136,3 +136,40 @@ label[for="flavor1"] {
     font-size: 16pt;
     color:crimson;
 }
+ p, a {
+    font-size: 14pt;
+ }
+
+ fieldset label {
+    font-size: 14pt;
+    color:darkblue;
+ }
+
+ ol > li {
+    padding: 15px 5px 15px 5px;
+ }
+
+h4 ~ p {
+    margin: 2px 2px 2px 2px;
+ }
+
+ h4 + p {
+    font-size: 175%;
+    color:goldenrod;
+ }
+
+ li.agenda {
+    font-family: 'Kanit';
+ }
+
+h2:has(+ details) {  /* selects h2 that HAS the details element */
+    color:blueviolet;
+ }
+
+ .standards {
+    & > a {
+        color: orangered;
+        font-size: 110%;
+        padding: 2px 2px 2px 2px;
+    }
+ }
