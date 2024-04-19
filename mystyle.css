@@ -72,10 +72,10 @@ ul { /* made percentages small here to make it noticeable */
 
 ol {
     color: hsl(71, 83%, 47%);
-    margin-top: 20px;
+    margin-top: 5px;
     margin-left: 150px;
     margin-right: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 li:active {
@@ -145,31 +145,31 @@ label[for="flavor1"] {
     color:darkblue;
  }
 
- ol > li {
-    padding: 15px 5px 15px 5px;
- }
+ol > li {
+    padding-top: 10px;
+}
 
 h4 ~ p {
     margin: 2px 2px 2px 2px;
  }
 
- h4 + p {
+h4 + p {
     font-size: 175%;
     color:goldenrod;
  }
 
- li.agenda {
+li.agenda {
     font-family: 'Kanit';
- }
+}
 
 h2:has(+ details) {  /* selects h2 that HAS the details element */
     color:blueviolet;
- }
+}
 
- .standards {
+.standards {
     & > a {
         color: orangered;
         font-size: 110%;
         padding: 2px 2px 2px 2px;
     }
- }
+}
