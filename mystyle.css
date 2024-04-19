@@ -117,3 +117,22 @@ form {
     grid-gap: 100px;
 }
 
+.me {
+    font-size: 18pt;
+    color:#323232;
+}
+
+#them {
+    font-size: 16pt;
+    color:darkgreen;
+}
+
+* {
+    margin: 2px 2px 2px 6px;
+    padding: 2px 2px 2px 2px;
+}
+
+label[for="flavor1"] {
+    font-size: 16pt;
+    color:crimson;
+}
