@@ -10,9 +10,10 @@ selector {
 
 */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) and (max-height: 900px) {
     body {
-        width: 90%;
+        height: 120%;
+        width: 120%;
     }
 }
 
@@ -82,13 +83,10 @@ li:active {
 }
 
 img {
-    width: 400px; /* pixel absolute unit */
-    height: 225px; 
-    max-width: 9%;
-    max-height: 20%;
+    max-height: 10%;
     border: 3px groove black; 
     position: fixed;
-    left: 12in;
+    left: 2in;
 }
 
 video {
@@ -118,3 +116,4 @@ form {
     grid-template-rows: 50px 50px 50px;
     grid-gap: 100px;
 }
+
